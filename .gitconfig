@@ -1,0 +1,21 @@
+[alias]
+  amend = commit --amend
+  b = branch
+  c = commit
+  co = checkout
+  d = diff
+  e = !git export
+  export = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
+  rebase-master = !git fetch && git rebase -i origin/master
+  s = status
+  sync = !git pull && git submodule foreach git pull
+  undo = checkout --
+  undolastcommit = reset --soft "HEAD^"
+  unstage = reset HEAD --
+
+[user]
+  email = stevenle08@gmail.com
+  name = Steven Le
+
+[color]
+  ui = true
