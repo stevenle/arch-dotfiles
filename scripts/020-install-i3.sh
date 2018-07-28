@@ -8,6 +8,7 @@ sudo pacman -S \
   i3-gaps \
   i3status \
   redshift \
+  scrot \
   xorg \
   xorg-xinit \
   xorg-server \
