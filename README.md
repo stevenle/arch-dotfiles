@@ -1,4 +1,4 @@
-# archlinux
+# stevenle's dotfiles for archlinux
 
 Screenshot:
 
