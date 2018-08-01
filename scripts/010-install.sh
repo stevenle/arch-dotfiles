@@ -15,8 +15,6 @@ sudo pacman -S \
   rxvt-unicode \
   rxvt-unicode-terminfo \
   tmux \
-  ttf-font-awesome \
-  ttf-ubuntu-font-family \
   vim \
   wget \
   yajl
